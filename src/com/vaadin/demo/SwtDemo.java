@@ -112,8 +112,8 @@ public class SwtDemo {
         subItem.addSelectionListener(new SelectionAdapter() {
             @Override
             public void widgetSelected(SelectionEvent e) {
-                browser.loadURL("http://www.yahoo.com");
-                swtBrowser.setUrl("http://www.yahoo.com");
+                browser.loadURL("https://www.google.com/?query=JxBrowser");
+                swtBrowser.setUrl("https://www.google.fi/?query=SWTBrowser");
             }
         });
 
